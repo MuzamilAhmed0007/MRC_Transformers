@@ -1,0 +1,9 @@
+torch>=1.12
+transformers>=4.25
+datasets>=2.0
+sentence-transformers>=2.2.2
+faiss-cpu  # optional; remove if not using faiss
+numpy
+tqdm
+flask         # for lightweight server (server.py)
+scikit-learn
